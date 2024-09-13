@@ -1,0 +1,273 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.main {
+    display: flex;
+    padding: 30px;
+    margin: 10px;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+.containor1 {
+    /* height: 300px;
+width: 200px; */
+    border: 2px solid black;
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.646);
+    color: white;
+
+}
+
+.containor2 {
+    /* height: 300px;
+    width: 200px; */
+    border: 2px solid black;
+    border: 2px solid black;
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.646);
+    color: white;
+
+}
+
+.in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.img {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border-radius: 1rem;
+    margin-left: 40px;
+    margin-right: 40px;
+    box-shadow: 5px 7px 7px black;
+}
+
+.inner1 {
+    position: relative;
+
+}
+
+.name {
+    position: relative;
+    left: 110px;
+}
+
+.dh {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+
+}
+
+.va {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.type {
+    position: relative;
+    left: 110px;
+}
+
+
+.img2 {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border-radius: 1rem;
+    margin-left: 40px;
+    margin-right: 40px;
+    box-shadow: 5px 7px 7px black;
+}
+
+.inner2 {
+    position: relative;
+
+}
+
+.name2 {
+    position: relative;
+    left: 110px;
+}
+
+.dh2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+
+}
+
+.va2 {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.type2 {
+    position: relative;
+    left: 110px;
+}
+
+.btn {
+    margin: 20px;
+    padding: 35px;
+    justify-content: space-around;
+
+
+}
+
+.play {
+    height: auto;
+    height: 40px;
+    width: 90px;
+
+
+    text-align: center;
+    border: 4px solid white;
+    background-color: rgb(228, 241, 143);
+    color: rgb(84, 50, 72);
+    border-radius: 2rem;
+    font-size: 18px;
+
+}
+
+.show {
+    height: auto;
+    height: 40px;
+    width: 140px;
+
+
+    text-align: center;
+    border: 4px solid white;
+    background-color: rgb(228, 241, 143);
+    color: rgb(84, 50, 72);
+    border-radius: 2rem;
+    font-size: 18px;
+
+}
+
+.inp {
+    height: 30px;
+    width: 90px;
+    margin-left: 100px;
+    border-radius: 2rem;
+    font-size: 20px;
+    background-color: rgb(179, 243, 196);
+    color: rgb(98, 95, 110);
+    box-shadow: 2px 4px 5px;
+    border: none;
+}
+
+.chose {
+
+
+    height: 150px;
+    border-radius: 0.4rem;
+    margin-left: 40px;
+    font-size: 18px;
+    background-color: rgb(228, 241, 143);
+    color: rgb(59, 48, 55);
+    box-shadow: 2px 4px 5px;
+
+}
+
+.points {
+
+    height: 50px;
+    background-color: aquamarine;
+    border-radius: 0.6rem;
+    background-color: rgb(179, 243, 196);
+    color: rgb(98, 95, 110);
+    box-shadow: 2px 4px 5px;
+}
+
+.result {
+    height: 50px;
+    background-color: aquamarine;
+    border-radius: 0.6rem;
+    background-color: rgb(179, 243, 196);
+    color: rgb(98, 95, 110);
+    box-shadow: 2px 4px 5px;
+}
+
+
+.id,
+.name,
+.type,
+.damage,
+.hp,
+.value {
+    background-color: rgb(147, 96, 34);
+    width: 92px;
+    box-shadow: 2px 4px 3px wheat;
+}
+
+.attacks {
+    background-color: rgb(147, 96, 34);
+    width: 280px;
+    box-shadow: 2px 4px 3px wheat;
+}
+
+
+.id2,
+.name2,
+.type2,
+.damage2,
+.hp2,
+.value2 {
+    background-color: rgb(147, 96, 34);
+    width: 92px;
+    box-shadow: 2px 4px 3px wheat;
+}
+
+.attacks2 {
+    background-color: rgb(147, 96, 34);
+    width: 280px;
+    box-shadow: 2px 4px 3px wheat;
+}
+
+.res {
+    border: 2px solid black;
+    background-color: rgb(7, 126, 86);
+    justify-content: space-between;
+    justify-content: center;
+    display: inline;
+    border-radius: 1rem;
+}
+
+.error {
+    color: aliceblue;
+
+}
+
+.chance {
+    border: 2px solid wheat;
+    color: rgb(203, 26, 44);
+    font-size: 20px;
+    width: 190px;
+    background-color: rgb(73, 236, 168);
+    border-radius: 1rem;
+}
+
+.pont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comp,
+.user {
+    border: 2px solid gray;
+    border-radius: 0.5rem;
+    color: rgb(237, 131, 9);
+    font-size: 18px;
+    background-color: rgb(114, 112, 114);
+}
